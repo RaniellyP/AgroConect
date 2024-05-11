@@ -1,0 +1,124 @@
+<body,html{
+    height: 100%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.
+
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    font-family: font-family: "Anta", sans-serif;
+    
+}
+    .nav-itens{
+        list-style: none;
+        display: flex;
+    }
+    
+    .nav-itens >li>a{
+        padding-left: 40px;
+        color: rgb(247, 237, 237);
+        text-decoration: none;
+    }
+     nav{
+        display: flex;
+        justify-content: space-around;
+        font-family: "Anta", sans-serif;
+        margin-top: 40px; 
+        align-items: center;
+        color: rgb(233, 223, 223);
+     }
+      .logo{
+        font-weight: 800;
+        font-size: 40px;
+      }
+      .loguin{
+        padding: 10px 40px;
+        font-size: 15px;
+       background-color: #008000;
+        border: none;
+        border-radius: 15px;
+        color: #F8F8FF;
+        font-family: "Anta", sans-serif;
+        cursor: pointer;
+        transition: 1s background; 
+      }
+
+    .loguin:hover{
+      background-color: #32CD32;
+      transition: 1s background; 
+    }
+
+    .cadastro{
+      padding: 10px 40px;
+      font-size: 15px;
+     background-color: #008000;
+      border: none;
+      border-radius: 15px;
+      color: #F8F8FF;
+      font-family: "Anta", sans-serif;
+      cursor: pointer;
+      transition: 1s background; 
+    }
+
+    .cadastro:hover{
+      background-color: #2CD332;
+      transition: 1s background; 
+    }
+    .main{
+        display: flex;
+        justify-content: center;
+    }
+    .card{
+        margin: 50px;
+        background-color: aliceblue;
+        color: #202020;;
+        width: 400px;
+        height: 500px;
+        border-radius: 10px;
+        text-align: center;
+        box-shadow: rgba(74, 238, 28, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+      }
+      .card>img{
+        width: 100%;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+      }
+      .card>class="1"{
+        font-size: 27px;
+        padding-top: 15px;
+      }
+      .card>class="2"{
+        font-size: 27px;
+        padding-top: 15px;
+        text-align: center;      
+    }
+    .card>class="3"{
+        font-size:27px ;
+        padding-top: 15px;
+        text-align: center;
+    }
+    
+    .card>p{
+        font-size:17px;
+        padding:20px 20px;
+    }
+    .button{
+        font-size:12px;
+        padding:10px 10px;
+        border: none;
+        background-color: #008000;
+        color: beige;
+        border-radius: 10px;
+        font-weight: 600;
+        transition: 1s background;
+        cursor: pointer;
+    }
+    .button:hover{
+        transition: 1s;
+        background-color: #2CD332;;
+
+    }
